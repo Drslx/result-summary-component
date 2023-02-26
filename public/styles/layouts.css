@@ -1,0 +1,69 @@
+/* Set variables colors */
+:root {
+  /* Primary */
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  /* Gradientes */
+  --light-slate-blue-bg: hsl(252, 100%, 67%);
+  --light-royal-blue-bg: hsl(241, 81%, 54%);
+  --violet-blue-circle: hsl(256, 72%, 46%, 1);
+  --persian-blue-circle: hsl(241, 72%, 46%, 0);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+/* Styles reset  */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Hanken Grotesk;
+  src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+html,
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: Hanken Grotesk;
+  scroll-behavior: smooth;
+}
+
+/* Desktop layout */
+#app {
+  height: 60%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid;
+}
+
+.result-card {
+  min-width: 50%;
+  max-width: 720px;
+  border-radius: 35px;
+
+  color: var(--white);
+  background-color: var(--light-slate-blue-bg);
+}
+
+.summary-card {
+  min-width: 50%;
+  max-width: 720px;
+}
+
+/* Mobile layout */
