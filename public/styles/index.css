@@ -3,10 +3,25 @@
 
 /* Styles aplication */
 
-.result-general {
+.result-card {
+  border-radius: 35px;
+  color: var(--white);
+  background-color: var(--light-slate-blue-bg);
 }
 
-.reaction {
+.result-score {
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+/*  */
+.summary-score {
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.reaction h3{
+  
 }
 
 .memory {
