@@ -9,14 +9,14 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Primary
+### Primary Summary text and background
 
 - Light red: hsl(0, 100%, 67%)
 - Orangey yellow: hsl(39, 100%, 56%)
 - Green teal: hsl(166, 100%, 37%)
 - Cobalt blue: hsl(234, 85%, 45%)
 
-## Gradients
+## Gradients Result background
 
 - Light slate blue (background): hsl(252, 100%, 67%)
 - Light royal blue (background): hsl(241, 81%, 54%)
@@ -25,7 +25,7 @@ The designs were created to the following widths:
 - Persian blue (circle): hsla(241, 72%, 46%, 0)
 
 
-### Neutral
+### Neutral text
 
 - White: hsl(0, 0%, 100%)
 - Pale blue: hsl(221, 100%, 96%)
