@@ -1,8 +1,7 @@
 /* Import others CSS */
 @import url(layouts.css);
 
-/* Styles aplication */
-
+/* Regras CSS para Result */
 .result-card {
   border-radius: 35px;
   color: var(--white);
@@ -10,28 +9,39 @@
 }
 
 .result-score {
+  transform: scale(1.4);
   border: 1px solid;
   border-radius: 50%;
 }
 
-/*  */
-.summary-score {
-  border: 1px solid;
-  border-radius: 10px;
+.compliments {
+  margin-top: 25px;
 }
 
-.reaction h3{
-  
+.reaction {
+  border: 1px solid;
 }
 
 .memory {
+  border: 1px solid;
 }
 
 .verbal {
+  border: 1px solid;
 }
 
 .visual {
+  border: 1px solid;
 }
 
 .btn {
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  padding: 15px;
+  border-radius: 5em;
+  color: var(--white);
+  background-color: var(--dark-gray-blue);
+  font-weight: 700;
+  text-transform: capitalize;
 }
