@@ -15,4 +15,6 @@
 .DS_Store
 .prettierignore
 
+# dependencies
 
+/node_modules
