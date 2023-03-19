@@ -107,6 +107,7 @@ body {
   #app {
     min-height: fit-content;
     max-width: 500px;
+    margin-top: 4em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -121,6 +122,8 @@ body {
   }
 
   .summary-card {
-    width: 70%;
+    min-width: 70%;
   }
+
+ 
 }

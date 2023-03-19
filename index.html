@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <link rel="stylesheet" href="/public/styles/index.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="result-card">
+        <h2 class="result-title">Your Result</h2>
+
+        <div class="result-score">
+          <span class="score">
+            76 <br />
+            of 100
+          </span>
+        </div>
+
+        <h3 class="compliments">Great</h3>
+
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="summary-card">
+        <h2 class="summary-title">Summary</h2>
+
+        <div class="summary-score">
+          <div class="reaction">
+            <div>
+              <img src="/assets/images/icon-reaction.svg" alt="reaction" />
+
+              <h3>Reaction</h3>
+            </div>
+
+            <div class="attribution">
+              <span class="attribution">80</span>
+              <span class="score-fixed">/ 100</span>
+            </div>
+          </div>
+
+          <div class="memory">
+            <div>
+              <img src="/assets/images/icon-memory.svg" alt="" />
+
+              <h3>Memory</h3>
+            </div>
+
+            <div>
+              <span class="attribution">92</span>
+              <span class="score-fixed">/100</span>
+            </div>
+          </div>
+
+          <div class="verbal">
+            <div>
+              <img src="/assets/images/icon-verbal.svg" alt="" />
+
+              <h3>Verbal</h3>
+            </div>
+
+            <div class="attribution">
+              <span class="attribution">61</span>
+              <span class="score-fixed">/100</span>
+            </div>
+          </div>
+
+          <div class="visual">
+            <div>
+              <img src="/assets/images/icon-visual.svg" alt="" />
+
+              <h3>Visual</h3>
+            </div>
+
+            <div class="attribution">
+              <span class="attribution">72</span>
+              <span class="score-fixed">/100</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn" onclick="getDate()">Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution" style="margin-top: 10px">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Drslx</a>.
+    </div>
+
+    <script src="/public/js/getData.js"></script>
+  </body>
+</html>
