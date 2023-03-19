@@ -1,0 +1,23 @@
+{
+  "name": "results-summary-component-main",
+  "version": "1.0.0",
+  "description": "front-end mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db/data.json --port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drslx/result-summary-component.git"
+  },
+  "author": "Drslx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drslx/result-summary-component/issues"
+  },
+  "homepage": "https://github.com/Drslx/result-summary-component#readme",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+}
