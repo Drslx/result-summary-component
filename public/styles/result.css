@@ -1,0 +1,43 @@
+/* Results */
+.result-card {
+  border-radius: 35px;
+  color: var(--white);
+  background-color: var(--light-slate-blue-bg);
+}
+
+.result-title {
+  margin-bottom: 35px;
+}
+
+.result-circle {
+  height: 150px;
+  width: 150px;
+
+  padding: 1.5rem 2rem;
+  border-radius: 50%;
+  background: linear-gradient(
+    var(--violet-blue-circle),
+    var(--persian-blue-circle)
+  );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-circle p {
+  color: var(--light-lavender);
+}
+.score-main {
+  font-size: 4rem;
+}
+
+.score-fixed {
+  font-weight: initial;
+  color: hsl(204, 8%, 76%);
+}
+
+.compliments {
+  margin-top: 25px;
+}

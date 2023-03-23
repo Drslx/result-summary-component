@@ -1,4 +1,4 @@
-/* Set variables colors */
+/* Set Variables Colors */
 :root {
   /* Primary */
   --light-red: hsl(0, 100%, 67%);
@@ -19,7 +19,7 @@
   --dark-gray-blue: hsl(224, 30%, 27%);
 }
 
-/* Styles reset  */
+/* Styles Reset  */
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +27,7 @@
   box-sizing: border-box;
 }
 
-/*  Import */
+/*  Import Fonts*/
 @font-face {
   font-family: Hanken Grotesk;
   src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
@@ -45,7 +45,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Desktop layout */
+/* Desktop Layout */
 #app {
   min-height: 50%;
   max-width: 600px;
@@ -65,20 +65,7 @@ body {
   text-align: center;
 }
 
-.result-title {
-  margin-bottom: 35px;
-}
-
-.result-score {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.summary-card {
+.summarys-card {
   width: 50%;
   padding: 1.5em;
   display: flex;
@@ -86,12 +73,7 @@ body {
   border-radius: 0 35px 35px 0;
 }
 
-.summary-title {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-.summary-score div {
+.summary-attr div {
   height: 44px;
   margin: 8px 0 5px 0;
   padding: 5px;
@@ -102,7 +84,7 @@ body {
   border-radius: 8px;
 }
 
-/* Mobile layout */
+/* Mobile Layout */
 @media (max-width: 576px) {
   #app {
     min-height: fit-content;
@@ -120,7 +102,7 @@ body {
     top: 20px;
   }
 
-  .summary-card {
+  .summarys-card {
     width: 70%;
   }
 }

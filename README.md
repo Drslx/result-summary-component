@@ -2,6 +2,7 @@
 
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
 
+![My Version](./design/Screenshot_My-V.png)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.

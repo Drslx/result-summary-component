@@ -5,12 +5,8 @@ const url = "http://localhost:3001/summarys";
 async function getDate() {
   const res = await fetch(url);
   const data = await res.json();
-
-  const attr = document.querySelector('')
-  //console.log(data);
-  return console.log(data);
+  return data;
 }
-
 /* Chamada da funcao */
 getDate();
 
