@@ -8,4 +8,4 @@ async function getDate() {
   return data;
 }
 
-getDate();
+getDate(x);
